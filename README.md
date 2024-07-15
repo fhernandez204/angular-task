@@ -9,4 +9,12 @@ Aplicación para el manejo de Tareas que consiste en:
 - Diseño de una interfaz de usuario simple y funcional usando Angular Material o
 Bootstrap (opcional).
 
+Generación del Proyecto Angular:
+npm install
+ng serve --port 8081
+
+Estructura del Proyecto:
+
+![image](https://github.com/fhernandez204/angular-task/blob/master/listadoTareas.jpg)
+
 
