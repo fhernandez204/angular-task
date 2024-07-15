@@ -45,3 +45,7 @@ Eliminar una Tarea:
 ![image](https://github.com/fhernandez204/angular-task/blob/main/delete_2.jpg)
 
 ![image](https://github.com/fhernandez204/angular-task/blob/main/delete_3.jpg)
+
+RECOMENDACIONES:
+1.- Creación de una mejor interfaz gráfica mas amigable con asesoramiento dediseñadores gráficos.
+2.- Colocar un mensaje de alerta antes de eliminar una Tarea.
