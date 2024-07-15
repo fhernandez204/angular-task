@@ -15,6 +15,6 @@ ng serve --port 8081
 
 Estructura del Proyecto:
 
-![image](https://github.com/fhernandez204/angular-task/blob/master/listadoTareas.jpg)
+![image](https://github.com/fhernandez204/angular-task/blob/main/listadoTareas.jpg)
 
 
