@@ -20,5 +20,27 @@ Lista de Tareas:
 ![image](https://github.com/fhernandez204/angular-task/blob/main/listadoTareas.jpg)
 
 Crear una Tarea:
+
 ![image](https://github.com/fhernandez204/angular-task/blob/main/add.jpg)
 
+Respuesta a la creación de una tarea:
+
+![image](https://github.com/fhernandez204/angular-task/blob/main/add%20respuesta.jpg)
+
+Mostrar el detalle de una Tarea:
+
+![image](https://github.com/fhernandez204/angular-task/blob/main/hacerClick.jpg)
+
+Modificar una Tarea:
+Antes de Modificar: 
+![image](https://github.com/fhernandez204/angular-task/blob/main/update_1.jpg)
+
+Tarea Modificada: 
+![image](https://github.com/fhernandez204/angular-task/blob/main/update_2.jpg)
+
+Eliminar una Tarea: 
+![image](https://github.com/fhernandez204/angular-task/blob/main/delete_1.jpg)
+
+![image](https://github.com/fhernandez204/angular-task/blob/main/delete_2.jpg)
+
+![image](https://github.com/fhernandez204/angular-task/blob/main/delete_3.jpg)
