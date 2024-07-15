@@ -1,0 +1,53 @@
+.edit-form {
+  max-width: 400px;
+  margin: auto;
+  background-color: #dcfaac;;
+}
+
+.justify-text {
+  text-align: justify;
+  margin: auto;
+}
+
+.center-text {
+  text-align: center;
+  margin: auto;
+  align-items: center; 
+  align-content: center;
+}
+
+a:hover {
+  background-color: #90ea02;;
+}
+
+button {
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.container.striped{color: #000; padding: 1rem; background: #90ea02; align-items: center; align-content: center;}

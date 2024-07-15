@@ -1,0 +1,75 @@
+<div *ngIf="viewMode; else editable">
+  <div *ngIf="currentTask.id center-text">
+    <div class="col-md-8">
+      <h4 class="center-text"><strong>Tarea</strong></h4>          
+    </div>  
+    <div class="justify-text">
+      <label><strong>Titulo:&nbsp;&nbsp;</strong></label> {{ currentTask.title }}
+    </div>
+    <div class="justify-text">
+      <label><strong>Descripcion:&nbsp;&nbsp;</strong></label>&nbsp;&nbsp;{{ currentTask.description }}
+    </div>
+    <div class="justify-text">
+      <label><strong>Status:&nbsp;&nbsp;</strong></label>&nbsp;&nbsp;{{ currentTask.completed ? "Completada" : "Incompleta" }}
+    </div>
+    <div class="justify-text">
+      <button class="badge badge-success mb-2" routerLink="/tasks/{{ currentTask.id }}">
+        Editar
+      </button>
+    </div>
+  </div>
+
+  <div *ngIf="!currentTask">
+    <br />
+    <p>Seleccione una Tarea...</p>
+  </div>
+</div>
+
+<ng-template #editable>
+  <div *ngIf="currentTask.id" class="edit-form">
+    <h4 class="center-text">Tarea</h4>
+    <form>
+      <div class="form-group container.striped">
+        <label for="title">&nbsp;&nbsp;Titulo</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          [(ngModel)]="currentTask.title"
+          name="title"
+        />
+      </div>
+      <div class="form-group">
+        <label for="description">&nbsp;&nbsp;Descripción</label>
+        <input
+          type="text"
+          class="form-control"
+          id="description"
+          [(ngModel)]="currentTask.description"
+          name="description"
+        />
+      </div>
+
+      <div class="form-group">
+        <label>&nbsp;&nbsp;Status:&nbsp;&nbsp;</label><br>
+        <select #selectpicker id="completed" [(ngModel)]="currentTask.completed" name="completed">
+          <option value="true">Completada</option>
+          <option value="false">Incompleta</option>
+        </select>
+      </div>
+    </form>
+    <div class="center-text">
+        <button class="badge badge-danger mr-2" (click)="deleteTask()">Eliminar Tarea</button>
+        <button
+          type="submit"
+          class="badge badge-success mb-2"
+          (click)="updateTask()"
+        >Modificar Tarea</button>
+    </div>
+  </div>
+
+  <div *ngIf="!currentTask.id">
+    <br />
+    <p>No se puede acceder a esta Tarea...</p>
+  </div>
+</ng-template>
