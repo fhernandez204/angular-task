@@ -15,6 +15,10 @@ ng serve --port 8081
 
 Estructura del Proyecto:
 
+Lista de Tareas:
+
 ![image](https://github.com/fhernandez204/angular-task/blob/main/listadoTareas.jpg)
 
+Crear una Tarea:
+![image](https://github.com/fhernandez204/angular-task/blob/main/add.jpg)
 
