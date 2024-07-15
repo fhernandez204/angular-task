@@ -2,21 +2,21 @@
   <div class="col-md-6">
     <div class="container">
       <div class="row table-head">
-        <div class="col-md-8">
+        <div class="col-md-8 center-text">
           <h4><strong>Listado de Tareas</strong></h4>          
         </div>       
       </div>
-      <div>
-          <div class="col-md-8">
-            <li
-              class="row striped"
-              *ngFor="let task of tasks; let i = index"
-              [class.active]="i == currentIndex"
-              (click)="setActiveTask(task, i)"
-            >
-              {{ task.title }}
-            </li>
-          </div>
+      <div class="col-md-14">
+            <ul>
+              <li
+                class="row striped"
+                *ngFor="let task of tasks; let i = index"
+                [class.active]="i == currentIndex"
+                (click)="setActiveTask(task, i)"
+              >
+                {{ task.title }}
+              </li>
+          </ul>
         </div>
     </div>
   </div>

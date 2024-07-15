@@ -15,13 +15,17 @@
 
       <div class="form-group">
         <label for="description">Descripción</label>
-        <input
-          class="form-control"
-          id="description"
-          required
-          [(ngModel)]="task.description"
-          name="description"
-        />
+        <textarea class="form-control" id="description"
+        [(ngModel)]="task.description"
+        name="description" rows="3" required></textarea>       
+      </div>
+
+      <div class="form-group">
+        <label>&nbsp;&nbsp;Status:&nbsp;&nbsp;</label><br>
+        <select #selectpicker id="completed" [(ngModel)]="task.completed" name="completed">
+          <option value="true">Completada</option>
+          <option value="false">Incompleta</option>
+        </select>
       </div>
 
       <button (click)="saveTask()" class="btn btn-success">Submit</button>

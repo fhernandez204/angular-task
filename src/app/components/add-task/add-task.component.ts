@@ -20,7 +20,8 @@ export class AddTaskComponent {
   saveTask(): void {
     const data = {
       title: this.task.title,
-      description: this.task.description
+      description: this.task.description,
+      completed: this.task.completed
     };
 
     this.taskService.create(data).subscribe({
