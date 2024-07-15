@@ -1,8 +1,20 @@
-# Angular 16 example project: CRUD with Rest API
+# Proyecto en Angular: CRUD con Rest API (FRONTEND)
 
-Build an Angular 16 CRUD example App to consume Rest APIs, display, modify & search data.
+Construccion en Angular una APP CRUD para consumir un  Rest APIs, display.
 
-Tutorial Application in that:
-- Each Tutorial has id, title, description, published status.
-- We can create, retrieve, update, delete Tutorials.
-- There is a Search bar for finding Tutorials by title.
+Aplicación para el manejo de Tareas que consiste en:
+- Cada Tarea tiene un  id, titulo, descripción, y un estatus de completado (True) o incompleto (False).
+- Se pueden crear, obtener, Modificar y eliminar Tareas.
+
+- Diseño de una interfaz de usuario simple y funcional usando Angular Material o
+Bootstrap (opcional).
+
+Generación del Proyecto Angular:
+npm install
+ng serve --port 8081
+
+Estructura del Proyecto:
+
+![image](https://github.com/fhernandez204/angular-task/blob/master/listadoTareas.jpg)
+
+
