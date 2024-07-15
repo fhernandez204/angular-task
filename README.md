@@ -32,6 +32,7 @@ Mostrar el detalle de una Tarea:
 ![image](https://github.com/fhernandez204/angular-task/blob/main/hacerClick.jpg)
 
 Modificar una Tarea:
+
 Antes de Modificar: 
 ![image](https://github.com/fhernandez204/angular-task/blob/main/update_1.jpg)
 
