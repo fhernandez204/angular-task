@@ -51,6 +51,9 @@ Eliminar una Tarea:
 
 
 RECOMENDACIONES:
+
 1.- Creación de una mejor interfaz gráfica mas amigable con asesoramiento de diseñadores gráficos.
+
 2.- Colocar un mensaje de alerta antes de eliminar una Tarea.
+
 3.- Utilización de mejores librerias de Bootstrap.
