@@ -57,3 +57,5 @@ RECOMENDACIONES:
 2.- Colocar un mensaje de alerta antes de eliminar una Tarea.
 
 3.- Utilización de mejores librerias de Bootstrap.
+
+4.- Paginación del Listado de Tareas.
